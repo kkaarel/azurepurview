@@ -13,8 +13,7 @@ git clone
 If needed make changes to parameters region you want to deploy. Note that not all regions are available 
 
 ```
-az deployment group create --resource-group "<resource-group>" --template-file https://github.com/kkaarel/azurepurview/blob/main/azuredeploy.json --parameters https://github.com/kkaarel/azurepurview/blob/main/azuredeploy.json
-
+az deployment group create --resource-group "<resource-group>" --template-file https://github.com/kkaarel/azurepurview/blob/main/azuredeploy.json --parameters https://github.com/kkaarel/azurepurview/blob/main/azuredeploy.parameters.json
 ```
 
 
