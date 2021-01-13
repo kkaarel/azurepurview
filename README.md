@@ -2,7 +2,16 @@
 
 Pre requierments 
 
++ Azure Account with an active subscription
++ Azure active directory tenant
++ Permission to create resources in subscription
++ No Azure Policy blocking applications from creating Storage account and EventHub namespace
 + Azure cli installed 
+
+
+About the Platform size and capacity
+
+1 capacity unit can on average receive 1 api call per second
 
 
 
